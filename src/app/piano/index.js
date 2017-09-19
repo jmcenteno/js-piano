@@ -219,7 +219,10 @@ export default class Piano {
 
     this.demoPlaying = !this.demoPlaying;
 
-    document.querySelector('.btn').innerText = !this.demoPlaying ? 'Play' : 'Stop';
+    const button = document.querySelector('.btn');
+
+    button.innerText = !this.demoPlaying ? 'Play' : 'Stop';
+    button.classList.toggle('active');
 
   }
 
