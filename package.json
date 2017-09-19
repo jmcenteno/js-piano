@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --hot --inline",
     "lint": "eslint ./src/app",
-    "test": "karma start karma.conf.js",
+    "test": "karma start karma.conf.js --singleRun",
+    "test:watch": "karma start karma.conf.js",
     "build": "npm run lint && npm run test && webpack -p"
   },
   "author": "Jose Centeno <jmcenteno@gmail.com>",
