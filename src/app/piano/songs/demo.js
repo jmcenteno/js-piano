@@ -10,7 +10,7 @@ class Demo extends Song {
 
     this.score = {
       a: [
-        { keyCode: 65, duration: this.durations.eigth },
+        { keyCode: 65, duration: this.durations.quarter },
         null,
         { keyCode: 70, duration: this.durations.eigth },
         null,
@@ -50,7 +50,7 @@ class Demo extends Song {
         null,
         { keyCode: 72, duration: this.durations.eigth },
         null,
-        { keyCode: 72, duration: this.durations.eigth + this.durations.sixteenth },
+        { keyCode: 72, duration: this.durations.quarter },
         null,
         { keyCode: 85, duration: this.durations.eigth },
         { keyCode: 72, duration: this.durations.eigth },
@@ -58,7 +58,7 @@ class Demo extends Song {
         null,
         { keyCode: 71, duration: this.durations.eigth },
         null,
-        { keyCode: 71, duration: this.durations.eigth + this.durations.sixteenth },
+        { keyCode: 71, duration: this.durations.quarter },
         null,
       ],
       c: [
